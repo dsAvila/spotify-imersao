@@ -147,11 +147,8 @@
     --min-container-width: 372px;
 }
 
-.hidden {
-    display: none;
-}
-
 .grid-container {
+    justify-items: center;
     grid-gap: 24px;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -167,7 +164,7 @@
     padding: 16px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    width: 85%;
 }
 
 .artist-card:hover {
@@ -212,6 +209,7 @@
     font-size: 16px;
     font-weight: 700;
     padding-block-end: 8px;
+    transform: none;
 }
 
 .artist-categorie {
@@ -249,5 +247,32 @@
 #result-artist {
     padding: 20px 40px;
 }
-
 /* FIM CARD ARTISTA */
+
+/* SCROLL */
+.scroll__grid-container {
+    max-height: 62vh;
+    overflow-y: auto;
+}
+
+.scroll__grid-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.scroll__grid-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* .offer__scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+} */

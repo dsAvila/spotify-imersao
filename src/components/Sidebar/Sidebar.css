@@ -41,7 +41,8 @@
     font-size: 14px;
 }
 
-.sidebar nav ul li a span {
+.fa-home,
+.fa-search {
     margin-right: 10px;
 }
 
@@ -81,7 +82,7 @@
     font-size: 20px;
     font-weight: 300;
     color: #b3b3b3;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .library .library__content .fa-plus {

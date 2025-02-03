@@ -15,13 +15,13 @@ const Sidebar = () => {
                 <ul>
                     <li>
                         <a href="">
-                            <span><FontAwesomeIcon icon={faHome} /></span>
+                            <FontAwesomeIcon className='fa-home' icon={faHome} />
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span><FontAwesomeIcon icon={faSearch} /></span>
+                            <FontAwesomeIcon className='fa-search' icon={faSearch} />
                             <span>Buscar</span>
                         </a>
                     </li>
@@ -31,10 +31,10 @@ const Sidebar = () => {
             <div className="library">
                 <div className="library__content">
                     <button className="library__button">
-                        <span className='fa-book'><FontAwesomeIcon icon={faBook} /></span>
+                        <FontAwesomeIcon className='fa-book' icon={faBook} />
                         <span>Sua Biblioteca</span>
                     </button>
-                    <span className='fa-plus'><FontAwesomeIcon icon={faPlus} /></span>
+                    <FontAwesomeIcon className='fa-plus' icon={faPlus} />
                 </div>
 
                 <section className="section-playlist">
